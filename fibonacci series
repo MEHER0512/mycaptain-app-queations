@@ -1,0 +1,21 @@
+#FIBONACCI SERIES
+
+print("FIBONACCI SERIES")
+a=eval(input("Enter number of terms needed :"))
+if a<=0:
+        print("Please enter positive number")
+else:
+    f=0
+    s=1
+    print(f,s,end=" ")
+    for i in range(2,a):
+        next=f+s        
+        print( next,end=" ")
+        f=s
+        s=next
+        
+#All positive numbers in a Range.
+
+
+        
+    
